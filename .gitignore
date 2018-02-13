@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.user
+/ExamineFilePathsFromTxtFile/obj/Debug/ExamineFilePathsFromTxtFile.pdb
+/ExamineFilePathsFromTxtFile/obj/Debug/ExamineFilePathsFromTxtFile.exe
+/ExamineFilePathsFromTxtFile/obj/Debug/ExamineFilePathsFromTxtFile.csproj.FileListAbsolute.txt
+/ExamineFilePathsFromTxtFile/obj/Debug/ExamineFilePathsFromTxtFile.csproj.CoreCompileInputs.cache
+/ExamineFilePathsFromTxtFile/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/ExamineFilePathsFromTxtFile/obj/Debug
+/ExamineFilePathsFromTxtFile/bin/Debug/sampleInputFile.txt
+/ExamineFilePathsFromTxtFile/bin/Debug/ExamineFilePathsFromTxtFile.pdb
+/ExamineFilePathsFromTxtFile/bin/Debug/ExamineFilePathsFromTxtFile.exe.config
+/ExamineFilePathsFromTxtFile/bin/Debug/ExamineFilePathsFromTxtFile.exe
+/.vs/ExamineFilePathsFromTxtFile/v15/Server/sqlite3/storage.ide-wal
+/.vs/ExamineFilePathsFromTxtFile/v15/Server/sqlite3/storage.ide-shm
+/.vs/ExamineFilePathsFromTxtFile/v15/Server/sqlite3/storage.ide
+/.vs/ExamineFilePathsFromTxtFile/v15/Server/sqlite3/db.lock
+/.vs/ExamineFilePathsFromTxtFile/v15/Server/sqlite3
+/.vs/ExamineFilePathsFromTxtFile/v15/.suo
