@@ -55,15 +55,20 @@ namespace ExamineFilePathsFromTxtFile
                                         if (nextPath.Trim().Length > 0)
                                         {
                                             FileInfo fif = null;
+                                            bool foundIt = false;
                                             try
                                             {
                                                 fif = new FileInfo(nextPath);
+                                                foundIt = (bool)fif.Exists;
                                             }
                                             catch (System.ArgumentException)
                                             {
-                                                Debug.WriteLine($"Detected a ArgumentException on {nextPath}");
+                                                Debug.WriteLine($"Detected an ArgumentException on {nextPath}");
                                             }
-                                            bool foundIt = (bool)fif?.Exists;
+                                            catch (PathTooLongException)
+                                            {
+                                                Debug.WriteLine($"Detected a PathTooLongException on {nextPath}");
+                                            }
                                             string comment = (foundIt) ? " " : " NOT ";
                                             Console.Out.WriteLine($"\tFile {nextPath} was{comment}found.");
                                         }
